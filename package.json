@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/byubroadcasting/library-logger#readme",
   "dependencies": {
+    "logform": "^2.1.2",
     "winston": "^3.2.1"
   },
   "devDependencies": {
