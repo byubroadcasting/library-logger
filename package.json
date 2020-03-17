@@ -1,0 +1,22 @@
+{
+  "name": "library-logger",
+  "version": "1.0.0",
+  "description": "Custom logger for BYUB libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byubroadcasting/library-logger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byubroadcasting/library-logger/issues"
+  },
+  "homepage": "https://github.com/byubroadcasting/library-logger#readme",
+  "dependencies": {
+    "winston": "^3.2.1"
+  }
+}
