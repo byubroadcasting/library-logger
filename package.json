@@ -18,5 +18,8 @@
   "homepage": "https://github.com/byubroadcasting/library-logger#readme",
   "dependencies": {
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.3"
   }
 }
