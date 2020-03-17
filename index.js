@@ -31,17 +31,12 @@ const setLogLevel = (logLevel) => {
 }
 
 const setLogPrefix = (logPrefix) => {
-  process.env.LOG_PREFIX = logPrefix
-}
-
-const update = () => {
-  logger.level = process.env.LOG_LEVEL || DEFAULT_LOG_LEVEL
-  logger
+  process.env.LOG_PREFIX = logPrefix || ''
 }
 
 const wrapFunction = (logFunction, ...args) => {
-  update()
-  logFunction(process.env.LOG_PREFIX, ...args)
+  logger.level = process.env.LOG_LEVEL || DEFAULT_LOG_LEVEL
+  logFunction(...args)
 }
 
 const log = {
