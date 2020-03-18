@@ -1,5 +1,5 @@
 const winston = require('winston')
-const { format } = require('logformat')
+const { format } = require('logform')
 
 const levels = [
   'debug',
