@@ -4,7 +4,8 @@
   "description": "Custom logger for BYUB libraries",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,10 @@
   },
   "homepage": "https://github.com/byubroadcasting/library-logger#readme",
   "dependencies": {
-    "logform": "^2.1.2",
-    "winston": "^3.2.1"
+    "logform": "^2.7.0",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
-    "standard": "^14.3.3"
+    "standard": "^17.1.2"
   }
 }
